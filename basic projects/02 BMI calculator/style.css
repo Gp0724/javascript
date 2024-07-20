@@ -1,0 +1,62 @@
+.container {
+    width: 575px;
+    height: 825px;
+    margin-left: 400px;
+    background-color: #797978;
+    /* background-image: url('./health.jpeg'); */
+
+    padding-left: 30px;
+  }
+  #height,
+  #weight {
+    width: 150px;
+    height: 25px;
+    margin-top: 30px;
+  }
+  
+  #weight-guide {
+    margin-left: 75px;
+    margin-top: 25px;
+  }
+  
+  #results {
+    font-size: 35px;
+    margin-left: 90px;
+    margin-top: 20px;
+    color: rgb(241, 241, 241);
+  }
+  
+  button {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove default border */
+    color: white; /* White text */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the button inline-block */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 140px; /* Some margin */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 12px; /* Rounded corners */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Add transitions for hover effects */
+}
+
+/* Hover effects */
+button:hover {
+    background-color: #45a049; /* Darker green background on hover */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+}
+
+/* Active/pressed state */
+button:active {
+    background-color: #397d3c; /* Even darker green background when pressed */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Reduce shadow */
+    transform: translateY(2px); /* Slight downward movement */
+}
+  
+  h1 {
+    padding-left: 15px;
+    padding-top: 25px;
+    
+  }
+  
